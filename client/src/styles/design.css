@@ -1,0 +1,100 @@
+
+.App-header {
+	background-image: url("./frank-mckenna-132739-unsplash.jpg");
+    background-size: cover;
+	min-height: 90vh;
+    min-width: 10vh;
+	text-align: center;
+	color: white;
+  }
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-around;
+	font-size: 2vh;
+	color: white;
+	
+}
+
+.rightNav {
+	color: white;
+    display: flex;
+    text-align: right;
+}
+
+.leftNav {
+  display: flex;
+  text-justify: left;
+  
+}
+
+.myConnectLogo {
+  height: 12vh;
+  width: 10vh;
+}
+
+.landingPageBackground {
+	background-image: url("./frank-mckenna-132739-unsplash.jpg");
+    background-size: cover;
+	min-height: 100vh;
+    min-width: 30vh;
+}
+
+
+.socialIcon {
+	display: flex;
+  justify-content: space-between;
+	padding: 25px;
+	margin: 50px;
+}
+
+.landingPageList {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.List {
+	text-align: left;
+	text-emphasis: emphasis;
+}
+.noMatch {
+    background-image: url("./milkovi-344432-unsplash.jpg");
+    background-size: cover;
+	min-height: 90vh;
+	min-width: 10vh;
+	color: white;
+}
+
+.linkHome {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login_page {
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+
+
+}
+
+.Form_Layout {
+	position: relative; 
+	right:50px;
+	left: 160px; 
+	width:50%;
+	margin: auto; 
+} 
+
+.footer {
+	background-color: #071525;
+	text-align: center;
+	color: White;
+	background-size: cover;
+	min-height: 5svh;
+    min-width: 50vh;
+}
