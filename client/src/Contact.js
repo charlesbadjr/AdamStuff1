@@ -44,7 +44,8 @@ state ={ fullName:'', city:'', email:'', residentState:'', phoneNumber:'', messa
                 name="phoneNumber"
                 value={phoneNumber}
                 onChange={ e => this.setState({ phoneNumber: e.target.value }) }
-
+                
+                />
                 <Form.Input
                   required
                   placeholder="Email"

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import noMatch from './404Match.js';
+import Navbar from './Navbar.js';
+import Footer from './Footer';
+import ContactForm from './Contact';
 import './App.css';
 import './styles/design.css';
 
@@ -10,10 +11,14 @@ class App extends Component {
 
     return (
       <div >
-          <Switch>
-              <Route exact path='/' component={LandingPage} />
-              <Route component={noMatch} />
-          </Switch >
+          < Navbar />
+          < LandingPage
+          
+          />
+          < ContactForm  
+            
+          />
+          <Footer />
       </div>
     );
   }
