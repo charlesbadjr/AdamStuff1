@@ -25,7 +25,7 @@ class Footer extends Component {
             </div>
             
             <div>
-            <SocialIcon url="jerginscharlie@gmail.com" style={{ height: 100, width: 100 }}/>
+            <SocialIcon url="gmail.com" style={{ height: 100, width: 100 }}/>
             </div>
 
           </div>

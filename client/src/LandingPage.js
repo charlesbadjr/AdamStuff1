@@ -34,15 +34,26 @@ class LandingPage extends Component {
              <p>
                My Connect Inc: 
             </p>
-            <a >
+            <a>
               844-885-8868
             </a>
          </h1>
-         <p style={{color: "black"}}> Upgrade your equipment or lower your bill just for switching to My Connect Inc.</p>
-          <div className="landingPageList" style={{color: "black"}}>
+
+
+         <div className="stuff" > 
+         <p style={{color: "white"}}>
+         Upgrade your equipment or lower your bill just for switching to 
+         My Connect Inc.</p>
+         </div>
+
+         <div className="space">
+         
+         </div>
+
+          <div className="landingPageList" style={{color: "black" }}>
              <List>
-                  <List.Item as='a'>
-                    <Icon name='help' />
+                  <List.Item as="a" >
+                    <Icon name='help'/>
                     <List.Content>
                       <List.Description>
                       Custom Security systems
@@ -50,8 +61,8 @@ class LandingPage extends Component {
                     </List.Content>
                   </List.Item>
 
-                  <List.Item as="a" >
-                  <Icon name='help' />
+                  <List.Item as="a"  >
+                  <Icon name='help'/>
                     <List.Content>
                       <List.Description>
                       Home Automation
@@ -59,7 +70,7 @@ class LandingPage extends Component {
                     </List.Content>
                   </List.Item>
 
-                  <List.Item as='a'> 
+                  <List.Item as="a" > 
                   <Icon name='help' />
                     <List.Content>
                       <List.Description>
@@ -68,7 +79,7 @@ class LandingPage extends Component {
                     </List.Content>
                   </List.Item>
               
-                  <List.Item as='a'> 
+                  <List.Item as="a" > 
                   <Icon name='help' />
                     <List.Content>
                       <List.Description>
@@ -107,10 +118,9 @@ class LandingPage extends Component {
                 </List>
 
               * No money down with up to 6 months no interest financing on all products and services.
+           
            </div>
-           <div className="contactFrame">
-             
-             </div>
+        
           </div>
       </div>
       );

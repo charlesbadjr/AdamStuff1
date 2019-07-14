@@ -1,6 +1,6 @@
 
 .App-header {
-	background-image: url("./frank-mckenna-132739-unsplash.jpg");
+	background-color: white;
     background-size: cover;
 	min-height: 90vh;
     min-width: 10vh;
@@ -36,10 +36,22 @@
 .landingPageBackground {
 	background-image: url("./frank-mckenna-132739-unsplash.jpg");
     background-size: cover;
-	min-height: 100vh;
-    min-width: 30vh;
+	min-height: 150vh;
+    min-width: 45vh;
 }
 
+.stuff{
+	color: whitesmoke;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.space {
+	height: 565px;
+	font-weight: bold;
+	color: white;
+	font-style: oblique;
+}
 
 .socialIcon {
 	display: flex;
@@ -51,8 +63,11 @@
 .landingPageList {
 	display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: baseline;
+	background-color: grey;
+	font-weight: bold;
+	color: white;
 }
 
 .List {
