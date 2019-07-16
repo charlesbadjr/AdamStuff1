@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import { SocialIcon } from 'react-social-icons';
+import ContactForm from './Contact';
+
+
 
 class Footer extends Component {
 
@@ -10,6 +13,9 @@ class Footer extends Component {
           <h5 > 
             Get in Touch:
           </h5>
+
+          < ContactForm />
+          
           <div className="socialIcon">
           
             <div>
@@ -25,7 +31,7 @@ class Footer extends Component {
             </div>
             
             <div>
-            <SocialIcon url="https://www.instagram.com/" style={{ height: 100, width: 100 }}/>
+            <SocialIcon url="https://www.instagram.com/myconnectinc/" style={{ height: 100, width: 100 }}/>
             </div>
 
           </div>

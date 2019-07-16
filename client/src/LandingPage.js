@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import Connectlogo from './styles/Connectlogo.png';
 import LogoConnectinc from './styles/LogoConnectinc.png';
 import {Header, Image, List, Icon} from 'semantic-ui-react';
-import {Contact} from './Contact';
-
 
 class LandingPage extends Component {
     render() {
