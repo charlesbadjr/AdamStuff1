@@ -17,15 +17,15 @@ class Footer extends Component {
             </div>
             
             <div >
-            <SocialIcon url="http://facebook.com/" style={{ height: 100, width: 100 }}/>
+            <SocialIcon url="https://www.facebook.com/myconnectinc/" style={{ height: 100, width: 100 }}/>
             </div>
             
             <div>
-            <SocialIcon url="https://twitter.com/" style={{ height: 100, width: 100 }}/>
+            <SocialIcon url="https://www.twitter.com/" style={{ height: 100, width: 100 }}/>
             </div>
             
             <div>
-            <SocialIcon url="gmail.com" style={{ height: 100, width: 100 }}/>
+            <SocialIcon url="https://www.instagram.com/" style={{ height: 100, width: 100 }}/>
             </div>
 
           </div>
