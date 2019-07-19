@@ -11,11 +11,8 @@ class Footer extends Component {
     return(
         <footer className="footer">
           <h5 > 
-            Get in Touch:
+            More Ways To Get In Touch:
           </h5>
-
-          < ContactForm />
-          
           <div className="socialIcon">
           
             <div>
