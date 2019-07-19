@@ -1,24 +1,18 @@
 class Api::ContactsController < ApplicationController
 
     def index
-        contacts=@contacts.all
-    
+        render json: Contact.all
     end
 
     def create
-        contacts.new(contact_params)
-        return
-          message(gotem);
-        else
-        contact.errors
-        end
-
+        contact = Contact.new(contact_params)
+        render json: {message: 'All Clear'}
     end
 
 
 
     private
-       contacts.permit(contactparms{ :fullName :message :phoneNumber :city :email })
+       params.require(:contact).permit{:fullName, :message, :phoneNumber, :city, :email }
     end
 
 end
